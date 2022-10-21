@@ -10,8 +10,9 @@ var MongoStore = require('connect-mongo')(session);
 
 const server = '127.0.0.1:27017'; 
 const database = 'SSIP-HACKATHON'; 
+const uri = process.env.MONGODB_URI;
 
-mongoose.connect('mongodb+srv://vswaroop:vishnu2003@cluster0.8skef8v.mongodb.net/?retryWrites=true&w=majority' , {
+mongoose.connect( uri , {
   useNewUrlParser: true,
   useUnifiedTopology: true
 }, (err) => {
