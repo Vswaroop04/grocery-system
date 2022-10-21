@@ -30,20 +30,20 @@ After the user logged in, a simple profile with the user's username and password
 ### •Password Reset:
 If the user forget his/her password, can reset by entering the registered Email id <br>and reset the password.
 
-### View Products
+### •View Products
 user can check the products which are just example sets
 
-### Add to cart
+### •Add to cart
 user can add them to cart if they want to buy
 
-### View Cart
+### •View Cart
 They Can Checkout by just viewing the cart
 
-### DataBase:
+### •DataBase:
 Here we use **[MongoDB Atlas(Cloud)](https://www.mongodb.com/cloud/atlas)** as the database. Here we have two collection created, named as:
 - users.
 - sessions.
-
+- Cart.
 <br>
 <br>
 <br>
